@@ -30,7 +30,10 @@
     <%= form.label :desc, style: "display: block" %>
     <%= form.text_area :desc %>
   </div>
-
+  <div>
+  <%= form.label :image, style: "display: block" %>
+  <%= form.file_field :image %>
+</div>
   <div>
     <%= form.label :price, style: "display: block" %>
     <%= form.text_field :price %>

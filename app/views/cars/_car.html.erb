@@ -28,5 +28,6 @@
     <strong>Km:</strong>
     <%= car.km %>
   </p>
-
+  <strong> Imagem do carro </strong>
+    <%= image_tag(car.image,width: "512px") if car.image.attached?%>
 </div>
